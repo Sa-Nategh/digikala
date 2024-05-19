@@ -1,0 +1,181 @@
+.digiclub {
+  width: 100%;
+  height: 90px;
+  margin-top: 20px;
+  .digiclub__content {
+    width: 90%;
+    height: inherit;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #3b7a9d;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    column-gap: 15px;
+    .digiclub__content__right {
+      width: 34%;
+      height: inherit;
+      padding-right: 40px;
+      padding-top: 25px;
+      svg {
+        width: 35%;
+      }
+    }
+    .digiclub__content__left {
+      width: 68%;
+      height: inherit;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+
+      .digiclub__content__left__sections {
+        width: 55%;
+        height: 90%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        .digiclub__content__left__sections__1 {
+          width: inherit;
+          height: inherit;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          border-radius: 7px;
+          column-gap: 5px;
+          .digiclub__content__left__sections__link {
+            width: 40%;
+            height: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            column-gap: 5px;
+            text-decoration: none;
+            svg {
+              fill: #5fc0d6 !important;
+              width: 30px !important;
+              opacity: 80% !important;
+            }
+            a {
+              text-decoration: none;
+              span {
+                font-family: var(--fontFamilyBold);
+                font-size: 13px;
+                color: black;
+              }
+            }
+          }
+          .digiclub__content__left__sections__img {
+            justify-content: center;
+            height: inherit;
+            img {
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 7px;
+            }
+          }
+        }
+        .digiclub__content__left__sections__2 {
+          width: inherit;
+          height: inherit;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          border-radius: 7px;
+          column-gap: 5px;
+          .digiclub__content__left__sections__link {
+            width: 40%;
+            height: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            column-gap: 5px;
+            text-decoration: none;
+            svg {
+              fill: #5fc0d6 !important;
+              width: 30px !important;
+              opacity: 80% !important;
+            }
+            a {
+              text-decoration: none;
+
+              span {
+                font-family: var(--fontFamilyBold);
+                font-size: 13px;
+
+                color: black;
+              }
+            }
+          }
+          .digiclub__content__left__sections__img {
+            justify-content: center;
+            height: inherit;
+            img {
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+
+              border-radius: 7px;
+            }
+          }
+        }
+        .digiclub__content__left__sections__3 {
+          width: inherit;
+          height: inherit;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          border-radius: 7px;
+          column-gap: 5px;
+          .digiclub__content__left__sections__link {
+            width: 40%;
+            height: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            column-gap: 5px;
+            text-decoration: none;
+            svg {
+              fill: #5fc0d6 !important;
+              width: 30px !important;
+              opacity: 80% !important;
+            }
+            a {
+              text-decoration: none;
+
+              span {
+                font-family: var(--fontFamilyBold);
+                font-size: 13px;
+                color: black;
+              }
+            }
+          }
+          .digiclub__content__left__sections__img {
+            justify-content: center;
+            height: inherit;
+            img {
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 7px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.show2 {
+    width: 100%;
+    height: 278px;
+    margin-bottom: 15px; 
+    .show2__center {
+      width: 90%;
+      height: inherit;
+      margin: 10px auto;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      column-gap: 5px;
+      div {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        img {
+          width: 100%;
+          height: 242;
+          border-radius: 15px;
+        }
+      }
+    }
+  }
